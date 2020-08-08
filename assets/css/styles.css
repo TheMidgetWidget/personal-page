@@ -1,0 +1,154 @@
+body {
+    /* main = 5f0a87 other = eabdef contrast = 240a3d */
+    background-color: #392452;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+/* welcome stuffz */
+
+.welcome-text {
+    margin: 50px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.welcome-text h1, h2 {
+    text-align: center;
+}
+
+/* section */
+.section {
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+}
+
+.section-header {
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.section-subheading {
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    text-underline-position: under;
+}
+
+.section-text {
+    text-align: justify;
+}
+
+.section:nth-child(odd) {
+    background-color: #3f265e;
+    -moz-box-shadow: 0 0 10px #160729;
+    -webkit-box-shadow: 0 0 10px #160729;
+    box-shadow: 0 0 10px #160729;
+}
+
+/* about */
+.about .section-header {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about .section-text {
+    padding: 10px 50px;
+    /* padding: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #392452;
+    -moz-box-shadow: 0 0 5px #160729 inset;
+    -webkit-box-shadow: 0 0 5px #160729 inset;
+    box-shadow: 0 0 5px #160729 inset; */
+}
+
+.about .section-text:hover {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #392452;
+    -moz-box-shadow: 0 0 5px #160729 inset;
+    -webkit-box-shadow: 0 0 5px #160729 inset;
+    box-shadow: 0 0 5px #160729 inset;
+}
+
+@media (max-width: 600px){
+    .about .section-header {
+        margin-bottom: 30px;
+    }
+}
+
+/* skills */
+.skills .section-header {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.skills-container {
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+ }
+
+.skills .section-body {
+    padding: 10px;
+}
+
+ .cpp, .java, .python, .c, .html, .csharp {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 20px;
+    height: 20px;
+ }
+
+ .java {
+    width: 95%;
+    background-color: #f44336;
+ }
+
+ .cpp {
+    width: 60%;
+    background-color: #4caf50;
+ }
+
+ .c {
+    width: 60%;
+    background-color: #808080;
+ }
+
+ .csharp {
+    width: 50%;
+    background-color: purple;
+ }
+
+ .html {
+    width: 40%;
+    background-color: blue;
+ }
+
+ .python {
+    width: 40%;
+    background-color: #2196f3;
+ }
+
+ /* contact */
+.contact .email {
+    padding: 10px;
+    background-color: #392452;
+    -moz-box-shadow: 0 0 5px #160729 inset;
+    -webkit-box-shadow: 0 0 5px #160729 inset;
+    box-shadow: 0 0 5px #160729 inset;
+ }
