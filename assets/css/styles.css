@@ -69,10 +69,6 @@ body {
 }
 
 .about .section-text:hover {
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
     background-color: #392452;
     -moz-box-shadow: 0 0 5px #160729 inset;
     -webkit-box-shadow: 0 0 5px #160729 inset;
